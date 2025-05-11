@@ -1,7 +1,15 @@
-import { BrowserRouter, Route, Routes, HashRouter } from "react-router";
+import { Route, Routes, HashRouter, useLocation } from "react-router";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Toaster } from "@/components/ui/toaster";
+
+const RouteManager = () => {
+  const { pathname } = useLocation();
+  if (pathname === "/") {
+    return <Home />;
+  }
+  return <NotFound />;
+};
 
 function App() {
   return (
@@ -9,8 +17,7 @@ function App() {
       <Toaster />
       <HashRouter>
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<RouteManager />} />
         </Routes>
       </HashRouter>
     </>
