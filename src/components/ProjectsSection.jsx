@@ -6,7 +6,7 @@ const projects = [
     title: "Student Forum Platform",
     description:
       "A secure and responsive MERN stack forum for students with real-time interactions, authentication, and comment management.",
-    image: "/projects/unisphere_project.png",
+    image: `${import.meta.env.BASE_URL}projects/unisphere_project.png`,
     tags: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
     demoUrl: "#",
     githubUrl: "#",
@@ -16,7 +16,7 @@ const projects = [
     title: "Azure Infrastructure Deployment",
     description:
       "Deployed a scalable full-stack app on Azure using VMs, Load Balancer, Auto Scaling, VPN access, and SSL-secured domain.",
-    image: "/projects/azure_project.jpeg",
+    image: `${import.meta.env.BASE_URL}projects/azure_project.jpeg`,
     tags: ["Azure", "Load Balancer", "Auto Scaling", "SSL", "DevOps"],
     demoUrl: "#",
     githubUrl: "#",
@@ -26,7 +26,7 @@ const projects = [
     title: "AWS Infrastructure, Route 53",
     description:
       "Designed and deployed scalable AWS infrastructure using EC2, ALB, Route 53, Auto Scaling, MySQL DB, and monitoring tools.",
-    image: "/projects/aws_project.jpeg",
+    image: `${import.meta.env.BASE_URL}projects/aws_project.jpeg`,
     tags: ["AWS", "EC2", "Route 53", "MySQL", "Auto Scaling"],
     demoUrl: "#",
     githubUrl: "#",
