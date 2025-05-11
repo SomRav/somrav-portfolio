@@ -8,8 +8,8 @@ const projects = [
       "A secure and responsive MERN stack forum for students with real-time interactions, authentication, and comment management.",
     image: `${import.meta.env.BASE_URL}projects/unisphere_project.png`,
     tags: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/SomRav",
+    githubUrl: "https://github.com/SomRav",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const projects = [
       "Deployed a scalable full-stack app on Azure using VMs, Load Balancer, Auto Scaling, VPN access, and SSL-secured domain.",
     image: `${import.meta.env.BASE_URL}projects/azure_project.jpeg`,
     tags: ["Azure", "Load Balancer", "Auto Scaling", "SSL", "DevOps"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/SomRav",
+    githubUrl: "https://github.com/SomRav",
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ const projects = [
       "Designed and deployed scalable AWS infrastructure using EC2, ALB, Route 53, Auto Scaling, MySQL DB, and monitoring tools.",
     image: `${import.meta.env.BASE_URL}projects/aws_project.jpeg`,
     tags: ["AWS", "EC2", "Route 53", "MySQL", "Auto Scaling"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/SomRav",
+    githubUrl: "https://github.com/SomRav",
   },
 ];
 
