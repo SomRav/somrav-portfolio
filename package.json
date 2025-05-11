@@ -1,22 +1,25 @@
 {
   "name": "somrav-portfolio",
-  "private": true,
+  "homepage": "https://github.com/SomRav/somrav-portfolio",
   "version": "0.0.0",
   "description": "Developer portfolio of SomRav built with React + Vite",
   "license": "MIT",
   "type": "module",
-  "author":"SomRav",
+  "author": "SomRav",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-toast": "^1.2.13",
     "@tailwindcss/vite": "^4.1.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.509.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

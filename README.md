@@ -5,7 +5,7 @@ Welcome to my personal portfolio — a clean, responsive, and fast developer sho
 ## 🚀 Live Preview
 
 Check out the live version of this portfolio here:  
-👉 [https://your-deployment-url.com](https://your-deployment-url.com)  
+👉 [https://github.com/SomRav/somrav-portfolio](https://github.com/SomRav/somrav-portfolio)  
 
 
 ## 🛠️ Installation & Development
